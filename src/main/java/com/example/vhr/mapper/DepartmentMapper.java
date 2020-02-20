@@ -2,6 +2,8 @@ package com.example.vhr.mapper;
 
 import com.example.vhr.bean.Department;
 
+import java.util.List;
+
 public interface DepartmentMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -14,4 +16,6 @@ public interface DepartmentMapper {
     int updateByPrimaryKeySelective(Department record);
 
     int updateByPrimaryKey(Department record);
+
+    List<Department> getAllDepartment(Integer pid);
 }

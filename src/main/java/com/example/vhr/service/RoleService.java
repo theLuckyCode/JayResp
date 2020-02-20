@@ -15,4 +15,15 @@ public class RoleService {
     public List<Role> getAllRoles(){
         return roleMapper.getAllRoles();
     }
+
+    public Integer addRole(Role role){
+        if (!role.getName().startsWith("ROLE_")){
+            role.setName("ROLE_"+role.getName());
+        }
+        return roleMapper.insert(role);
+    }
+
+    public Integer deleteRole(Integer id){
+        return roleMapper.deleteByPrimaryKey(id);
+    }
 }
