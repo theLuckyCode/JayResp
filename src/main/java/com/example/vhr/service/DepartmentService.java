@@ -16,4 +16,13 @@ public class DepartmentService {
         //这次使用的是递归的方式，因为子部门比较多，不想menu那样
         return departmentMapper.getAllDepartment(-1);
     }
+
+    public void addDep(Department department){
+        department.setEnabled(true);
+        departmentMapper.addDep(department);
+    }
+
+    public void deleteDep(Department department){
+        departmentMapper.deleteDep(department);
+    }
 }
