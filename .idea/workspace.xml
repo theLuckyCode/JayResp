@@ -4,23 +4,15 @@
     <list default="true" id="e8963d3f-b0a5-4fe1-869d-82c863568c2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/bean/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/bean/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/bean/Hr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/bean/Hr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/controller/system/basic/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/controller/system/basic/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/DepartmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/controller/system/HrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/controller/system/HrController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/HrMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/HrMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/HrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/HrMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/HrRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/HrRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/HrRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/mapper/HrRoleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/vhr/service/HrService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/vhr/service/HrService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/bean/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/bean/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/bean/Hr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/bean/Hr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/controller/system/basic/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/controller/system/basic/DepartmentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/mapper/DepartmentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/mapper/DepartmentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/mapper/DepartmentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/mapper/DepartmentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/controller/system/HrController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/controller/system/HrController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/mapper/HrMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/mapper/HrMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/mapper/HrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/mapper/HrMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/service/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/service/DepartmentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/vhr/service/HrService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/vhr/service/HrService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,6 +137,7 @@
       <workItem from="1582161454537" duration="17599000" />
       <workItem from="1582197503463" duration="5562000" />
       <workItem from="1582246366111" duration="16918000" />
+      <workItem from="1582286350513" duration="6260000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上交">
       <created>1582125717636</created>
@@ -181,10 +174,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582168195448" />
-    <state x="806" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582246371338">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="605" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582286354260">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="605" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.860@0.0.1440.860" timestamp="1582197562865" />
+    <state x="605" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.860@0.0.1440.860" timestamp="1582286354260" />
     <state x="806" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582246371338" />
     <state x="499" y="289" width="474" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582106986972">
       <screen x="0" y="0" width="1440" height="860" />
@@ -203,45 +196,45 @@
     </state>
     <state x="499" y="172" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1582211455135" />
     <state x="665" y="208" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582180284355" />
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1582274421545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1582356484499">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582211474169" />
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582356484499" />
     <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582274421545" />
-    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1582274421545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1582356484499">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1582211474168" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1582356484499" />
     <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582274421545" />
-    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1582274421545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1582356484499">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1582211474168" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1582356484499" />
     <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582274421545" />
-    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1582274421545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1582356484499">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1582211474168" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1582356484499" />
     <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582274421545" />
-    <state width="1876" height="277" key="GridCell.Tab.1.bottom" timestamp="1582274421545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1397" height="222" key="GridCell.Tab.1.bottom" timestamp="1582356484499">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582211474170" />
+    <state width="1397" height="222" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582356484499" />
     <state width="1876" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582274421545" />
-    <state width="1876" height="277" key="GridCell.Tab.1.center" timestamp="1582274421545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1397" height="222" key="GridCell.Tab.1.center" timestamp="1582356484499">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1582211474169" />
+    <state width="1397" height="222" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1582356484499" />
     <state width="1876" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582274421545" />
-    <state width="1876" height="277" key="GridCell.Tab.1.left" timestamp="1582274421545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1397" height="222" key="GridCell.Tab.1.left" timestamp="1582356484499">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1582211474169" />
+    <state width="1397" height="222" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1582356484499" />
     <state width="1876" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582274421545" />
-    <state width="1876" height="277" key="GridCell.Tab.1.right" timestamp="1582274421545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1397" height="222" key="GridCell.Tab.1.right" timestamp="1582356484499">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1582211474169" />
+    <state width="1397" height="222" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1582356484499" />
     <state width="1876" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582274421545" />
     <state width="1876" height="342" key="GridCell.Tab.2.bottom" timestamp="1582190348010">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -281,9 +274,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="744" y="310" key="git4idea.merge.GitMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582275489150" />
-    <state x="665" y="310" key="git4idea.merge.GitPullDialog" timestamp="1582275919939">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="499" y="256" key="git4idea.merge.GitPullDialog" timestamp="1582356616816">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="499" y="256" key="git4idea.merge.GitPullDialog/0.0.1440.860@0.0.1440.860" timestamp="1582356616816" />
     <state x="665" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582275919939" />
     <state x="511" y="218" width="896" height="820" key="search.everywhere.popup" timestamp="1582249351694">
       <screen x="0" y="0" width="1920" height="1040" />

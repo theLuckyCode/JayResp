@@ -2,6 +2,7 @@ package com.example.vhr.mapper;
 
 import com.example.vhr.bean.Hr;
 import com.example.vhr.bean.Role;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -22,5 +23,5 @@ public interface HrMapper {
 
     List<Role> getHrRoleById(Integer id);
 
-    List<Hr> getAllHrs(Integer hrId);
+    List<Hr> getAllHrs(@Param("hrId") Integer hrId, @Param("keywords") String keywords);
 }

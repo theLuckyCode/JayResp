@@ -26,7 +26,12 @@
   <select id="getAllHrs" resultMap="HrWithRoles">
 --   左链接，多对多的查询
      select hr.id, hr.name, hr.phone, hr.telephone, hr.address, hr.enabled, hr.username, hr.userface, hr.remark,r.`id` as rid,r.`name` as rname,r.`nameZh` as rnameZh
-     from hr LEFT JOIN hr_role hrr on hr.`id`=hrr.`hrid` LEFT JOIN role r on hrr.`rid`=r.`id` WHERE hr.`id` != 3
+     from hr LEFT JOIN hr_role hrr on hr.`id`=hrr.`hrid` LEFT JOIN role r on hrr.`rid`=r.`id` WHERE hr.`id` != #{hrId}
+     <if test="keywords!=null">
+--     模糊查询
+       and hr.name like concat('%',#{keywords},'%')
+     </if>
+     order by hr.id
   </select>
   <select id="getHrRoleById" resultType="com.example.vhr.bean.Role">
     SELECT r.* from role r,hr_role hrr WHERE hrr.`rid`=r.`id` and hrr.`hrid` = #{id}
