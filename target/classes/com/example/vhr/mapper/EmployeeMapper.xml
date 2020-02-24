@@ -63,10 +63,18 @@
     SELECT e.*,p.`id` as pid,p.`name` as pname,n.`id` as nid,n.`name` as nname,d.`id` as did,d.`name` as dname,j.`id` as jid,j.`name` as jname,pos.`id` as posid,pos.`name` as posname
     from employee e,nation n,politicsstatus p,department d,joblevel j,position pos
     WHERE e.`nationId` = n.`id` AND e.`politicId` = p.`id` AND e.`departmentId` = d.`id` AND e.`jobLevelId` = j.`id` AND e.`posId` = pos.`id`
+    <if test="keyword != null and keyword != '' ">
+      --    若不用concat函数就要用$符号
+      and e.name like concat('%',#{keyword},'%')
+    </if>
     limit #{page},#{size}
   </select>
   <select id="getTotal" resultType="java.lang.Long">
-    select count(*) from employee;
+    select count(*) from employee
+    <if test="keyword != null and keyword != '' ">
+      --    若不用concat函数就要用$符号
+      where name like concat('%',#{keyword},'%')
+    </if>
   </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select 
